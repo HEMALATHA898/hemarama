@@ -16,8 +16,6 @@ public class GenericsDemo {
 
         notGeneric.add("And this is the third String");
 
-
-
         for (int i = 0; i < notGeneric.size(); i++) {
 
             String nextString = (String) notGeneric.get(i);
